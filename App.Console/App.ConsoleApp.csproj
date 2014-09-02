@@ -66,8 +66,9 @@
   <ItemGroup>
     <Compile Include="AOP\MethodTracingAspect.cs" />
     <Compile Include="Enumerations.cs" />
-    <Compile Include="Interfaces\IHumanable.cs" />
-    <Compile Include="Models\Person.cs" />
+    <Compile Include="Interfaces\IHuman.cs" />
+    <Compile Include="UtilityExtensions.cs" />
+    <Compile Include="ViewModels\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
